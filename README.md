@@ -1,8 +1,6 @@
 # Trade-Binder-backend : A back-end personal project
 
-## Introduction
-
-### A virtual replication of a real-world MTG trading card collection that can be sent to friends in order to ease trading.
+## A virtual replication of a real-world MTG collection that can be sent to friends in order to ease trading.
 
 As you would expect from a trading card game, trading cards with friends is a pivotal part of Magic: the Gathering.  
 This project is a website that replicates a real-world trading card collection that can be sent to friends in order to ease trading.  
@@ -17,6 +15,9 @@ Data of the cards are stored here and can be interacted with.  So far I have imp
 
 This API uses _routers_ in order to help breakdown the logic into sub routers.  
 Similarly, the API uses error handling middleware that is separated into it's own file.  
-All of these should aid in the reading of this API with no loss of functionality.
+All of these should aid in the reading of this API with no loss of functionality.  
+My next step in this project will be to add more endpoints to the API in order to allow creation of users.
 
-**Any critique and feedback would be greatly appreciated as this is an ongoing project!**
+--- 
+
+### Any critique and feedback would be greatly appreciated as this is an ongoing project!
